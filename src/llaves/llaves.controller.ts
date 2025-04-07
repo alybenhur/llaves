@@ -3,7 +3,7 @@ import { LlavesService } from './llaves.service';
 import { CreateLlaveDto } from './dto/create-llave.dto';
 import { UpdateLlaveDto } from './dto/update-llave.dto';
 import { LlaveDto } from './dto/llave.dto';
-import { JwtAuthGuard } from 'src/guard/JwtAuthGuard';
+import { JwtAuthGuard } from '../guard/JwtAuthGuard';
 
 @Controller('llaves')
 export class LlavesController {
